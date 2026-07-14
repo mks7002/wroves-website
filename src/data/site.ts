@@ -17,7 +17,7 @@ export const siteConfig = {
   socials: {
     twitter: "https://twitter.com/wroves",
     linkedin: "https://linkedin.com/company/wroves",
-    instagram: "https://instagram.com/wroves",
+    instagram: "https://www.instagram.com/wroves.co/?__pwa=1#",
   },
   seo: {
     homeTitle: "Wroves | Managed Digital Services, Web Development, Marketing & Remote Execution",
