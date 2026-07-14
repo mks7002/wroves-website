@@ -278,10 +278,10 @@ export const InquiryForm: React.FC<InquiryFormProps> = ({
         <FormField label="Approximate Budget" error={errors.budget} required>
           <select id="budget" name="budget" value={formData.budget} onChange={handleChange}>
             <option value="" disabled>Select a budget range</option>
-            <option value="Under $500">Under $500</option>
-            <option value="$500–$1,500">$500–$1,500</option>
-            <option value="$1,500–$5,000">$1,500–$5,000</option>
-            <option value="$5,000+">$5,000+</option>
+            <option value="Under 4,999rs">Under 4,999rs</option>
+            <option value="4,999rs–9,999rs">4,999rs–9,999rs</option>
+            <option value="9,999rs–19,999">9,999rs–19,999rs</option>
+            <option value="20,000rs+">20,000rs+</option>
             <option value="Not sure yet">Not sure yet</option>
           </select>
         </FormField>
