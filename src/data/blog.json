@@ -5,15 +5,19 @@
     "slug": "choose-right-technology-business-website",
     "excerpt": "A practical framework for choosing the right website stack without overbuilding your business needs.",
     "category": "Web Development",
-    "author": "Wroves Editorial",
-    "publishedAt": "2026-09-14",
+    "author": "Mayank",
+    "publishedAt": "2026-09-16T17:40:00.000Z",
     "readingTime": "6 min read",
     "featuredImage": "https://images.unsplash.com/photo-1558655146-d09347e92766?auto=format&fit=crop&w=1600&q=80",
     "featured": true,
     "status": "published",
     "seoTitle": "How to Choose the Right Technology for Your Business Website | Wroves",
     "seoDescription": "A practical framework for choosing the right technology stack for a business website.",
-    "tags": ["web development", "technology", "business website"],
+    "tags": [
+      "web development",
+      "technology",
+      "business website"
+    ],
     "content": "# How to Choose the Right Technology for Your Business Website\n\nChoosing a technology stack is less about picking the newest tool and more about matching the build to the business goal.\n\n## Start with the outcome\n\nA simple brochure website, a lead-generation funnel and a database-backed customer portal have very different requirements.\n\n## Match complexity to the requirement\n\nFor straightforward marketing sites, a lightweight CMS or modern framework can be enough. For custom workflows, dashboards, user accounts and integrations, a web application stack makes more sense.\n\n## Think beyond launch day\n\nAsk how the site will be updated, who will maintain it, what integrations you will need and how quickly the business is expected to change.\n\n## A practical decision checklist\n\n- Define the business outcome first.\n- Identify content and update frequency.\n- List integrations and data requirements.\n- Decide who will own maintenance.\n- Choose the simplest stack that can support the next stage.\n\nThe right technology is the one that supports the business without creating unnecessary complexity."
   },
   {
@@ -30,7 +34,11 @@
     "status": "published",
     "seoTitle": "AI Automation for Repetitive Business Work | Wroves",
     "seoDescription": "Explore practical areas where AI automation can reduce repetitive business work.",
-    "tags": ["AI", "automation", "workflows"],
+    "tags": [
+      "AI",
+      "automation",
+      "workflows"
+    ],
     "content": "# Why Businesses Are Using AI Automation to Reduce Repetitive Work\n\nAI automation is becoming useful when it is attached to a clear workflow rather than treated as a feature by itself.\n\n## Good candidates for automation\n\nLead enrichment, customer-support routing, reporting, content drafts and repetitive data movement are examples of processes that can often be structured into repeatable workflows.\n\n## Keep humans in control\n\nNot every decision should be automated. A useful workflow can prepare information, create a first draft or route a task while keeping important approvals with a person.\n\n## Start with one process\n\nMap one repetitive task, measure the time it consumes and automate the repeatable steps first."
   },
   {
@@ -47,7 +55,11 @@
     "status": "published",
     "seoTitle": "Website vs Web Application: What's the Difference? | Wroves",
     "seoDescription": "Understand the difference between a website and a custom web application.",
-    "tags": ["web application", "website", "technology"],
+    "tags": [
+      "web application",
+      "website",
+      "technology"
+    ],
     "content": "# Website vs Web Application: What's the Difference?\n\nA website primarily presents information. A web application is usually built around interactive workflows, data and user actions.\n\n## Websites\n\nCommon examples include company sites, service pages, landing pages and content hubs.\n\n## Web applications\n\nDashboards, portals, inventory systems, internal tools and subscription products typically require application logic and data storage.\n\n## The deciding question\n\nAsk what the visitor needs to do, not only what they need to read."
   }
 ]
