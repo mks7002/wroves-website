@@ -1,5 +1,5 @@
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1901736594863701"
-     crossorigin="anonymous"></script>
+     crossOrigin="anonymous"></script>
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
