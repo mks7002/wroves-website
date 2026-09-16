@@ -70,7 +70,7 @@
     "publishedAt": "2026-09-16T11:13:00.000Z",
     "readingTime": "4 min read",
     "featuredImage": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=1600&q=80",
-    "featured": false,
+    "featured": true,
     "status": "published",
     "seoTitle": "Website vs Web Application: What's the Difference? | Wroves",
     "seoDescription": "Understand the difference between a website and a custom web application.",
