@@ -8,6 +8,7 @@ export const navLinks: NavLink[] = [
   { label: "Services", href: "/services" },
   { label: "How It Works", href: "/how-it-works" },
   { label: "About", href: "/about" },
+  { label: "Blog", href: "/blog" },
   { label: "Contact", href: "/contact" }
 ];
 
@@ -15,6 +16,7 @@ export const footerLinks = {
   company: [
     { label: "About Us", href: "/about" },
     { label: "How It Works", href: "/how-it-works" },
+    { label: "Blog", href: "/blog" },
     { label: "Join Network", href: "/partners" }
   ],
   services: [
