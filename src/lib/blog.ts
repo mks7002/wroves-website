@@ -22,9 +22,21 @@ export type BlogArticle = {
 
 export const blogArticles = articles as BlogArticle[];
 
+const PUBLIC_BLOG_CATEGORIES = new Set([
+  "Technology",
+  "AI & Automation",
+  "Business",
+  "Digital Marketing",
+  "Web Development",
+]);
+
 export function getPublishedArticles() {
   return blogArticles
-    .filter((article) => article.status === "published")
+    .filter(
+      (article) =>
+        article.status === "published" &&
+        PUBLIC_BLOG_CATEGORIES.has(article.category),
+    )
     .sort((a, b) => +new Date(b.publishedAt) - +new Date(a.publishedAt));
 }
 
@@ -37,13 +49,19 @@ export function getFeaturedArticle() {
 }
 
 export function getRelatedArticles(article: BlogArticle, limit = 3) {
-  return getPublishedArticles()
-    .filter((item) => item.id !== article.id && item.category === article.category)
-    .slice(0, limit);
+  const sameCategory = getPublishedArticles().filter(
+    (item) => item.id !== article.id && item.category === article.category,
+  );
+  const fallback = getPublishedArticles().filter(
+    (item) => item.id !== article.id && item.category !== article.category,
+  );
+  return [...sameCategory, ...fallback].slice(0, limit);
 }
 
 export function formatBlogDate(date: string) {
-  return new Intl.DateTimeFormat("en-US", { year: "numeric", month: "short", day: "numeric" }).format(
-    new Date(date),
-  );
+  return new Intl.DateTimeFormat("en-IN", {
+    year: "numeric",
+    month: "short",
+    day: "numeric",
+  }).format(new Date(date));
 }
